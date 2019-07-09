@@ -1,0 +1,385 @@
+ /***********************************  常用基础样式  ********************************/
+
+/* margin */
+.mg-10 {
+  margin: 10px;
+}
+.mg-20 {
+  margin: 20px;
+}
+.mg-30 {
+  margin: 30px;
+}
+.mg-40 {
+  margin: 40px;
+}
+.mg-50 {
+  margin: 50px;
+}
+ 
+/* top */
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+
+/* right */
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+
+/* bottom */
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+/* left */
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+/* padding */
+.pd-10 {
+  padding: 10px;
+}
+.pd-20 {
+  padding: 20px;
+}
+.pd-30 {
+  padding: 30px;
+}
+.pd-40 {
+  padding: 40px;
+}
+.pd-50 {
+  padding: 50px;
+}
+
+/* top */
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+/* right */
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.pr-30 {
+  padding-right: 30px;
+}
+
+.pr-40 {
+  padding-right: 40px;
+}
+
+.pr-50 {
+  padding-right: 50px;
+}
+
+/* bottom */
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+
+/* left */
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+.pl-40 {
+  padding-left: 40px;
+}
+
+.pl-50 {
+  padding-left: 50px;
+}
+
+/* align */
+.tl {
+  text-align: left;
+}
+
+.tc {
+  text-align: center;
+}
+
+.tr {
+  text-align: right;
+}
+
+/* float */
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+/* clear float */
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
+
+.empty-content:before {
+  content: '';
+  display: table;
+}
+
+/* position */
+.pos-r {
+  position: relative;
+}
+
+/* 文字溢出不换行，显示省略号 */
+.no-wrap {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* 强制换行 */
+.break-all {
+  word-break: break-all;
+}
+
+/* primary */
+.primary-text {
+  color: $primary-color;
+}
+
+/* white */
+.white-text {
+  color: #ffffff;
+}
+
+/* info */
+.info-text {
+  color: $sub-text-color;
+}
+
+/* danger */
+.danger-text {
+  color: $danger-color;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* 高度100% */
+.h-100 {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.of-y-auto {
+  overflow-y: auto;
+}
+
+.border {
+  border: 1px solid $border-color;
+}
+
+.border-top {
+  border-top: 1px solid $border-color;
+}
+.border-right {
+  border-right: 1px solid $border-color;
+}
+.border-bottom {
+  border-bottom: 1px solid $border-color;
+}
+.border-left {
+  border-left: 1px solid $border-color;
+}
+
+.radius {
+  border-radius: 4px;
+}
+
+.el-card-body-title {
+  height: 34px;
+  line-height: 34px;
+  border-bottom: 1px solid $border-color;
+  font-size: 16px;
+}
+
+/* 字体大小 */
+.fz-12 {
+  font-size: 12px;
+}
+.fz-20 {
+  font-size: 20px;
+}
+
+.shadow {
+  box-shadow:0 7px 50px rgba(79,136,222,0.08);
+}
+
+.module-title {
+  border-left: 2px solid $primary-color;
+  color: $primary-color;
+  font-size: 16px;
+  padding-left: 10px;
+  font-weight:bold;
+}
+
+//上传头像
+.avatar-uploader {
+  line-height: 0;
+  .el-upload {
+    border: 1px dashed $sub-text-color;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .el-upload:hover {
+    border-color: $primary-color;
+  }
+  .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 158px;
+    height: 158px;
+    line-height: 158px;
+    text-align: center;
+  }
+  .avatar {
+    width: 158px;
+    height: 158px;
+    display: block;
+  }
+}
+
+.request-loading {
+  .el-loading-spinner{
+    .el-loading-text ,i {
+      color: $default-color;
+    }
+  } 
+}

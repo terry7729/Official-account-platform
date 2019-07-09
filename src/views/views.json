@@ -1,0 +1,23 @@
+{
+    "1": ["IndexPage"],
+
+    "2-1": ["AutoResponseAction", "KeyWordResponseList", "EditKeyWordResponse", "GetMessageResponse", "BeFocusedResponse"],
+    "2-2": ["CustomizeMenuAction"],
+    "2-3": ["PageTemplateAction", "PageTemplateList", "SelectTemplates"],
+
+    "3-1": ["FansManage", "Attentioned", "Blacklist"],
+    "3-2": ["MessageManage"],
+    "3-3": ["MaterialManage", "ImgTextList", "EditMaterial", "ImgList", "VideoList", "AddVideo"],
+    "3-4": ["LightAppManage"],
+
+    "4-1": ["FansDatasheet"],
+
+    "5-1": ["EarningFinance"],
+    "5-2": ["ExtractFinance"],
+
+    "6-1": ["OfficialAccountSet"],
+    "6-2": ["WorkersSet"],
+    "6-3": ["FinancialSet"],
+    "6-4": ["AuthenticationSet"],
+    "6-5": ["SecuritySet"]
+}
